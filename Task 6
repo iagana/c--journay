@@ -14,12 +14,16 @@ Output
   int n;
   int next;
   int checkEven;
+  int result1;
   
   n = 7;
   
   checkEven = (n % 2) ;
   
-  result = n + checkEven + 2;
+  result1 = n + checkEven ; // მუშაობს კენტის შემთხვევაში
+  
+  result2 = (n / 2) + 2; // მუშაობს ლუწის შემთხვევაში
+  
  
 }
  
@@ -45,7 +49,7 @@ Output
   student = 4;
   apple = 10;
   
-  result = k / n;
+  result = apple / student;
   
 
 }
