@@ -20,7 +20,7 @@ Output
   
   checkEven = (n % 2) ;
   
-  result = (n - checkEven) + ; 
+  result = (n - checkEven) + 2; 
   
 }
  
