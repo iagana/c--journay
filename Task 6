@@ -1,0 +1,125 @@
+/*
+  1. მოცემულია მთელი დადებითი რიცხვი n. result ცვლადში მოვათავსოთ მოცემული რიცხვის შემდეგ მდგომი ლუწი რიცხვი
+Input
+    2
+Output
+    4
+Input
+    7
+Output
+   8
+   ამოხსნა:
+ */
+{
+  int n;
+  int next;
+  int nextCheck;
+  
+  n = 4;
+  
+  nextCheckEven = n % 2 + 1;
+  nextCheckOdd = n / 2 + 1;
+  
+  
+  
+  
+ 
+}
+ 
+/* 
+    2. N მოსწავლე იყოფს K ვაშლს თანაბრად. მორჩენილი ვაშლები რჩება ისევ კალათაში.
+  რამდენი ვაშლი შეხვდება თითოეულ მოსწავლეს?
+  Input Data
+  პროგრამა იღებს ორ მთელ რიცხვს N და K
+  Output Data
+  აღვწეროთ ცვლადი result და მოვათავსოთ ვაშლების რაოდენოა
+  მაგალითები:
+Input
+    3
+    14
+Output
+    4
+*/
+{
+  int apple;
+  int student;
+  int result;
+  
+  student = 4;
+  apple = 10;
+  
+  result = k / n;
+  
+
+}
+/*
+   3. N მოსწავლე იყოფს K ვაშლს თანაბრად. მორჩენილი ვაშლები რჩება ისევ კალათაში.
+  რამდენი ვაშლი დარჩება კალათაში?
+  Input Data
+  პროგრამა იღებს ორ მთელ რიცხვს N და K
+  Output Data
+  აღვწეროთ ცვლადი result და მოვათავსოთ ვაშლების რაოდენოა
+  მაგალითები:
+  Input
+      3
+      14
+  Output
+      2
+*/    
+
+{
+  int apple;
+  int student;
+  int result;
+  
+  student = 4;
+  apple = 10;
+  
+  result = apple % student; // ვყოფ ვაშლს სტუდენტებზე და ვწერ ნაშთს.
+
+}
+
+/*
+   4. მოცემულია 3 ნიშნა რიცხვი. გამოვყოთ მისი ათეულების ციფრი.
+  127  |  2
+*/
+{
+  
+  int num;
+  int middleDigit;
+  int transform;
+  
+  num = 252;
+  
+  transform = (num % 100); // 3 ნიშნას ვაკეთებ 2 ციფრად და ვიღებ  ბოლო ორ ციფრს
+  middleDigit = transform / 10; // ორ ციფრას ვყოფ 10 ზე და ვიგებ პირველ ციფრს ანუ 5 ს
+  
+  
+}
+/*
+   5. მოცემულია 4 ნიშნა რიცხვი. დავთვალოთ მისი ციფრების ჯამი.
+  1234 |  10
+*/
+{
+  int num;
+  int firstTwoNumbers;
+  int sumfirstNumbers;
+  int lastTwoNumbers;
+  int sumLastTwoNumbers;
+  int sumFinal;
+  
+  
+  num = 2345;
+  
+  firstTwoNumbers = (num / 100); //  ვიგებთ პირველ ორ ციფრს ანუ 23 ს
+  sumfirstNumbers = (firstTwoNumbers / 10) + (firstTwoNumbers % 10); // 2 + 3;
+  lastTwoNumbers = (num % 100); // ვიგებთ ბოლო ორ ციფრს ანუ 45 ს
+  sumLastTwoNumbers = (lastTwoNumbers / 10) + (lastTwoNumbers % 10); // 4 + 5;
+  
+  sumFinal = sumFirstNumbers + sumLastTwoNumbers;
+  
+}
+/*
+   6. მოცემულია 4 ნიშნა რიცხვი. დავთვალოთ მისი ლუწი ციფრების ჯამი.
+  1234 |  6
+*/  
