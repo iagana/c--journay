@@ -14,17 +14,14 @@ Output
   int n;
   int next;
   int checkEven;
-  int result1;
+  int result;
   
-  n = 7;
+  n = 5;
   
   checkEven = (n % 2) ;
   
-  result1 = n + checkEven ; // მუშაობს კენტის შემთხვევაში
+  result = (n - checkEven) + ; 
   
-  result2 = (n / 2) + 2; // მუშაობს ლუწის შემთხვევაში
-  
- 
 }
  
 /* 
