@@ -122,5 +122,43 @@ Output
   1234 |  6
 */  
 {
+  int abcd;
+  int ab;
+  int cd;
+  int AB;
+  int CD;
+  
+  abcd = 2244
+  
+  int pirvelicalke;
+  int meorecalke;
+  
+  ab = (abcd /100);
+  AB = (ab / 10) + (ab %10);
+  
+  pirvelicalke = (ab / 10 ) ;
+  meorecalke = (ab % 10);
+  
+  cd = (abcd /100);
+  CD = (cd / 10) + (cd %10);
+  
+  bolooricalke = (cd /10 ) ;
+  bolooricalke2 = (cd % 10);
+  
+  int erti;
+  int ori;
+  int sami;
+  int otkhi;
+  int final;
+  
+  erti = (pirvelicalke % 2) * pirvelicalke ;
+  
+  ori = (meorecalke % 2) * meorecalke;
+  
+  sami = (bolooricalke % 2) * bolooricalke;
+  
+  okhi = (bolooricalk2 % 2) * bolooricalk2;
+  
+  final = erti + ori + sami + otkhi;
   
 }
