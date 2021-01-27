@@ -13,16 +13,13 @@ Output
 {
   int n;
   int next;
-  int nextCheck;
+  int checkEven;
   
-  n = 4;
+  n = 7;
   
-  nextCheckEven = n % 2 + 1;
-  nextCheckOdd = n / 2 + 1;
+  checkEven = (n % 2) ;
   
-  
-  
-  
+  result = n + checkEven + 2;
  
 }
  
@@ -123,3 +120,6 @@ Output
    6. მოცემულია 4 ნიშნა რიცხვი. დავთვალოთ მისი ლუწი ციფრების ჯამი.
   1234 |  6
 */  
+{
+  
+}
