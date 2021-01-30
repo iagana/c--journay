@@ -91,16 +91,18 @@ Input   Output
 {
   int n;
   int m;
+  int even;
+  int result;
   
   n = 5;
   m = 2;
   
-  int sum;
-  int even;
+  
   int result;
 
-  sum = (n + m);
-  even = (sum / sum);
+  
+ even = (n % m) * (m % n)
 
-  result = even + ((sum % 2)*2);
+
+ result = 1 + even;
 }
