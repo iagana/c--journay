@@ -55,16 +55,24 @@ Input   Output
 {
  int N;
  int K;
+ int odd;
+ int times;
+ int min;
+ int result;
+ int resultFinal;
+ int even;
+ int Finalresult;
  
  
  
  odd = K / N ; // ვაშლს ვყოფ მოსწავლეებზე
- time = odd * N; // მოსწავლეებს ვაბრავლებ გამყოფზე
+ times = odd * N; // მოსწავლეებს ვაბრავლებ გამყოფზე
  min = K - time; // მთლიან ვაშლებს ვაკლებ ზუსტად გაყოფილ ვაშლებს
  result = N - min; // მოსწავლეების რაოდენობას ვაკლებ ნარჩენ ვაშლებს  და ვიღებ ზუსტად რამედმა აიღო 
  resultFinal = N - result; // ყველა მოსწავლეს ვაკლებ რამდენზეც ზუსტად გაიყო 
  
  even = (K + N) % 2) + resultFinal - (K + (N % 2);
+ Finalresult = even;
  
 }
 
