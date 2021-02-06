@@ -162,10 +162,16 @@ Input  | Output
   
   day = a - b;
   
-  daysCheck = h / day;
+  daysCheck = h / day; // სიმაღლეს ვაკლებ დღიურ ასვლას
   
   
-  evenCheck = daysCheck % 2;
+  evenCheck = daysCheck % 2; // ვიგებ არის თუ არა რიცხვი ლუწი
+  
+  
+ calc =  (h - b) -1; // სიმაღლეს ვაკლებ დღიურ მინუსს და ვაკლებ კიდე ერთს
+  
+ final =  (calc / day) + 1; // რა დრო დაჭირდებოდა თანაბარი რო ყოფილიყო და მაღლა -1 ის გამო ვუმატებ 1 ს
+  
   
   if( evenCheck == 0)
   {
@@ -175,7 +181,7 @@ Input  | Output
   {
     if( evenCheck > 0 )
     {
-      
+      result = final;
     }
   }
  
