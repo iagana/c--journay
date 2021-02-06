@@ -79,6 +79,29 @@
   
 */
 
+{
+  int L1;
+  int L2;
+  
+  int P1;
+  int P2;
+  
+  int result;
+  
+  
+  if( L1 == P1 || L2 == P2 )
+  {
+    result = true;
+  }
+  else
+  {
+    result = false;
+  }
+  
+}
+
+
+
 /*
   3. მოცემულია 3 რიცხვი. ვიპოვოთ მაქსიმუმი.
 */
@@ -120,7 +143,7 @@ result ცვლადში მოვათავსოთ ამოცან�
 Input  | Output
 10 3 2 | 8
 20 7 3 | 5
-12  10  2| 4
+12  10  2| 2
   
 */
 
@@ -129,15 +152,73 @@ Input  | Output
   int a;
   int b;
   
+  int day;
+  
+  int daysCheck;
+  
+  int evenCheck;
+  
   int result;
   
+  day = a - b;
+  
+  daysCheck = h / day;
+  
+  
+  evenCheck = daysCheck % 2;
+  
+  if( evenCheck == 0)
+  {
+    result = daysCheck;
+  }
+  else
+  {
+    if( evenCheck > 0 )
+    {
+      
+    }
+  }
  
   
 }
 
 
+/*
 
+  5. კვადრატის ფორმის დაფაზე ყოველ კიდის უჯრაში მოათავსეს თითო მონეტა. შეიძლება თუ არა აღმოჩნდეს რომ ზუსტად k რაოდენობის მონეტა იყო მოთავსებული დაფაზე?
+მაგალითად თუ დაფა 2x2 მაშინ კიდე უჯრებში მოთავსებული მონეტების რაოდენობაა 4
+თუ 6x6 მაშინ 20 მონეტა
+მოცემულია ნატურალური რიცხვი k
+result ცვლადში მოვათავსოთ true თუ არსებობს ისეთი ზომის კვადრატული დაფა რომელზეც კიდე უჯრებში მოთავსდება ზუსტად k რაოდენობის მონეტა, თუ არ არსებობს false
 
+Input | Output
+20    | true
+13    | false
+
+*/
+
+{
+  int k;
+  
+  int check;
+  
+  int result;
+
+  
+  check = k % 2;
+  
+  if( check == 0 )
+  {
+    result = true;
+  }
+  else
+  {
+    result = false;
+  }
+  
+  
+  
+}
 
 
 
