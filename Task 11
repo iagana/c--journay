@@ -157,7 +157,7 @@ Input  | Output
   int daysCheck;
   
   int evenCheck;
-  
+  int calc;
   int result;
   
   day = a - b;
