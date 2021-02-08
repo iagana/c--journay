@@ -65,8 +65,29 @@ Input   | Output
 */
 {
 
+  int x1;
+  int y1;
   
-
+  int x2;
+  int y2;
+  
+  int result;
+  
+  if( x1 > 0 && y1 > 0 && x2 > 0 && y2 > 0)
+  {
+    result = true;
+  }
+  else
+    {
+      if( x1 < 0 && y1 < 0 && x2 < 0 && y2 < 0)
+      {
+        reseult = true;
+      }
+       else
+       {
+        return = false;
+       }
+    }
 }
 
 
@@ -81,7 +102,16 @@ Input | Output
   int b;
   int c;
   
+  int result;
   
+  ab = a + b;
+  ac = a + c;
+  bc = b + c;
+  
+  if( ab > c || ac > b || bc > a )
+  {
+    result = true;
+  }
   
   
 }
@@ -97,3 +127,80 @@ b = 3 | b = 4
 c = 4 | c = 7
 */
 
+{
+  
+  
+  int a; 
+  int b;
+  inc c;
+  
+  int A;
+  int B;
+  int C;
+  
+  int max;
+  int min;
+  
+  
+  if( a > b && a > c )
+  {
+    max = a;
+  }
+  else
+  {
+    if( b > a && b > c )
+    {
+      max = b;
+    }
+    else
+    {
+      if(c > a && c > b)
+      {
+      max = c;
+      }
+    }
+  } 
+ 
+ C = max;
+ 
+   if( a < b && a < c )
+  {
+    min = a;
+  }
+  else
+  {
+    if( b < a && b < c )
+    {
+      min = b;
+    }
+    else
+    {
+      if(c < a && c < b)
+      {
+      min = c;
+      }
+    }
+  } 
+ A = min;
+ 
+ if( a>b && b>c || c>b && b>a )
+ {
+  mid = b;
+ }
+ else
+  {
+    if( a>c && c>b || b>c && c>a )
+    {
+      mid = c;
+    }
+    else
+      {
+        mid = a;
+      }
+  }
+ 
+ B = mid;
+ 
+ result = (A)(B)(C);
+ 
+}
