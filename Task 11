@@ -210,16 +210,16 @@ Input | Output
   
   int result;
 
+  checkEven = (k + 4) % 4;
   
-  check = k % 2;
   
-  if( check == 0 )
+  if( checkEven > 0 )
   {
-    result = true;
+    result = false;
   }
   else
   {
-    result = false;
+    result = true;
   }
   
   
