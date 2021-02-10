@@ -35,28 +35,7 @@
 */
 
 {
-  int L1;
-  int L2;
-  
-  int P1;
-  int P2;
-  
-  int result;
-  
-  sp1 = L2 + 1;
-  sp2 = L2 - 1;
-  
-  sp3 = L1 + 2;
-  sp4 = L2 - 2;
-  
-  if (P2 == sp1 || P2 == sp2 && P1 == sp3 || P1 == sp4) 
-  {
-    return = false;
-  }
-  else
-  {
-    return true;
-  }
+ 
       
       
   
@@ -78,7 +57,7 @@ Input   | Output
   int x2;
   int y2;
   
-  int result;
+  bool result;
   
   if( x1 > 0 && y1 > 0 && x2 > 0 && y2 > 0)
   {
@@ -109,15 +88,23 @@ Input | Output
   int b;
   int c;
   
-  int result;
+  int ab;
+  int ac;
+  int bc;
+  
+  bool result;
   
   ab = a + b;
   ac = a + c;
   bc = b + c;
   
-  if( ab > c || ac > b || bc > a )
+  if (ab > c || ac > b || bc > a)
   {
     result = true;
+  }
+  else
+  {
+    result = false;
   }
   
   
