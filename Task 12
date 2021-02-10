@@ -43,30 +43,20 @@
   
   int result;
   
-  killzoneHor = (L1 + 1) ( L2 - 1);
-  killzoneHor = (L1 - 1);
+  sp1 = L2 + 1;
+  sp2 = L2 - 1;
   
-  killzoneVert = (L2 + 1) ( L1 - 1);
-  killzoneVert = (L2 - 1);
+  sp3 = L1 + 2;
+  sp4 = L2 - 2;
   
-  || P1 == killZoneHor || P1 == killZoneHor1 || P2 == killZoneVert || P2 == killZoneVert
-  
-  
-  if( L1 == P1 || L2 == P2 )
+  if (P2 == sp1 || P2 == sp2 && P1 == sp3 || P1 == sp4) 
   {
-    result = true;
-    }
-    else
-    {
-     if( P2 == (L2 + 1) && ( L1 - 1)  )
-     {
-        result = true;
-      }
-      else
-      {
-        if( P2 == (L2 - 1) && ( L1 + 1) )
-      }
-     }
+    return = false;
+  }
+  else
+  {
+    return true;
+  }
       
       
   
