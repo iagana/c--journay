@@ -4,24 +4,75 @@
 
 {
   int n;
+  int a;
   
-  a = n;
+  int result;
   
-  int result
-  
-  while (a > 0)
+  while (n > 0)
   {
-    a = a / 10;
+    a = n % 10; // ვიგებ ბოლო ციფრს
     
-    result = result + a;
+    result = result + a; 
+    
+    n = n / 10; // ვიგებ ბოლოს წინა ციფრებს
+    
   }
+  
 }
 
 /*
     2. მოცემულია მთელი რიცხვი. ვიპოვოთ ლუწი ციფრების ჯამი
 */
 
+{
+  int n;
+  
+  int a;
+  
+  int result;
+  
+   while (n > 0)
+    {
+      a = n % 10; // ვიგებ ბოლო ციფრს
+    
+        if (a % 2 == 0)
+        {
+        result = result + a; 
+        }
+        else
+        {
+        }
+    
+      n = n / 10; // ვიგებ ბოლოს წინა ციფრებს
+    }
+}
 
 /*
   3. მოცემულია მთელი რიცხვი. შევაბრუნოთ მისი ციფრები
+  input | output
+  1234  | 4321
 */
+
+{
+   int n;
+   
+   int a;
+   
+   a = n;
+   
+   int result;
+   
+   
+   while (a > 0)
+   {
+     last = a % 10;
+     
+     result = rest * 10 + last; // ბოლო ციფრს ვამატებ ათეულებით
+     
+     a = a / 10;
+     
+   }
+   
+}
+
+
